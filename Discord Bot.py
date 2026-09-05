@@ -158,3 +158,4 @@ else:
 load_dotenv(base_dir / "Bot.env")
 
 bot.run(os.getenv("DISCORD_BOT_TOKEN"))
+input("Press Enter to exit...")
